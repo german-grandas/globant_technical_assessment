@@ -17,5 +17,5 @@
 Run tests using pytest:
 
 ```bash
-pytest test_app.py
+pytest tests
 ```
