@@ -9,9 +9,9 @@ class TestDataController(unittest.TestCase):
     @staticmethod
     def get_mock_data():
         return [
-            {"name": "berry1", "url": "https://pokeapi.co/api/v2/berry/1/"},
-            {"name": "berry2", "url": "https://pokeapi.co/api/v2/berry/2/"},
-            {"name": "berry3", "url": "https://pokeapi.co/api/v2/berry/3/"},
+            {"name": "berry1", "growth_time": 10},
+            {"name": "berry2", "growth_time": 10},
+            {"name": "berry3", "growth_time": 10},
         ]
 
     def test_process_berry_info(self):
